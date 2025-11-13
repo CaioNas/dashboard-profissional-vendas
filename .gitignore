@@ -1,0 +1,42 @@
+# Ambiente Virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Dados (opcional - descomente se não quiser versionar)
+# data/*.csv
+# data/*.xlsx
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Distribuição
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos temporários
+*.tmp
+*.temp
